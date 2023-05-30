@@ -36,7 +36,7 @@ int main() {
     GateController gateController(threshold);
 
     while (true) {
-        cout<<"Enter the current water level: ";
+        cout<<"Water level from the sensor: ";
         cin>>waterLevel;
 
         gateController.checkWaterLevel(waterLevel);
