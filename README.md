@@ -18,12 +18,12 @@ The following code is written in C++. The purpose of the code is to simulate a g
 
 The class "GateController" serves as the class of the code.
 
-### Constructors:
-The constructor `checkWaterLevel(double waterLevel)`
+### Functions:
+The function `checkWaterLevel(double waterLevel)` compares the water level with the limit threshold given
 
-The Constructor `closeGates()` closes the gates of the pathway
+The function `void closeGates()` closes the gates of the pathway
 
-The Constructor `openGates()` opens the gates of the pathway
+The function `void openGates()` opens the gates of the pathway
 
 ### Main Function:
 The main() function takes the input from the sensor which has to be set in the underground pathway. It consists of a while loop which keeps running until the sensor detects in the change of value going above or below the limit of 4 feet. Once a change is noticed it executes the class.
