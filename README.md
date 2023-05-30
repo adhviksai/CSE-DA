@@ -10,7 +10,7 @@ Every year several thousand people die in underwater pathways due to flooding an
 The following code is written in C++. The purpose of the code is to simulate a gate for an underground pathway. It explains how the gates are automatically closed when the water level crosses a certain limit and opens once the water level falls below. The code takes the input in feet and when the sensor detects the the rise of water level above 4 feet the gates close automatically.
 
 ## Concepts Used:
-* OOPS
+* OOPS (Class and Object)
 * Control Flow Statements(If/If-else)
 
 ## About The Code:
