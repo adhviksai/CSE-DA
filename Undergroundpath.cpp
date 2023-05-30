@@ -8,9 +8,9 @@ public:
     GateController(double threshold) : opengate(true), waterLevelThreshold(threshold) {
         
         void checkWaterLevel(double waterLevel) {
-        if (waterLevel > waterLevelThreshold && opengate) {
+        if (waterLevel >= waterLevelThreshold && opengate) {
             closeGates();
-        } else if (waterLevel <= waterLevelThreshold && !opengate) {
+        } else if (waterLevel < waterLevelThreshold && !opengate) {
             openGates();
         }
     }
