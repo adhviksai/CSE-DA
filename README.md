@@ -34,8 +34,7 @@ int main() {
     double waterLevel;
     double threshold;
 
-    cout<<"Enter the water level threshold: ";
-    cin>>threshold;
+    threshold=6;
 
     GateController gateController(threshold);
 
