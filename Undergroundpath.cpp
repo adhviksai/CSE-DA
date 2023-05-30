@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 class GateController {  //Creating the main class
 private: //private members
     bool opengate;
