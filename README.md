@@ -29,4 +29,4 @@ The Constructor `openGates()` opens the gates of the pathway
 The main() function takes the input from the sensor which has to be set in the underground pathway. It consists of a while loop which keeps running until the sensor detects in the change of value going above or below the limit of 4 feet. Once a change is noticed it executes the class.
 
 ## Sample Output:
-![Flooded-tunnel-in-Valencia-03-May-2022-Policia-Local-Valencia](https://github.com/adhviksai/CSE-DA/assets/135026457/83f654c3-daa3-488b-b3d3-73e0c5c59fe2)
+<img width="297" alt="Screenshot 2023-05-30 221525" src="https://github.com/adhviksai/CSE-DA/assets/135026457/ac0a4db4-01f5-4b04-bc4d-2b0a89c460e9">
