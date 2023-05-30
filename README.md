@@ -14,7 +14,7 @@ The following code is written in C++. The purpose of the code is to simulate a g
 * Control Flow Statements(If/If-else)
 
 ## About The Code:
-### Class GateController
+### Class:
 
 The class "GateController" serves as the class of the code.
 
